@@ -25,3 +25,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.desBg{
+  background: radial-gradient(circle at 5% 0%, #2D2438, transparent 40%),
+      radial-gradient(circle at 60% 5%, #2D332A, transparent 30%),
+      radial-gradient(circle at 80% 90%, #203C3F, transparent 100%);
+}
+
+
+.my_custom_scrollbar::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.my_custom_scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.my_custom_scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.my_custom_scrollbar_width_zero::-webkit-scrollbar {
+  width: 0;
+}
